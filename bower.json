@@ -1,0 +1,25 @@
+{
+  "name": "web-resume-nodejs",
+  "homepage": "",
+  "authors": [
+    "Pitarn Harnpanichpun <pitarnh@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "owl.carousel": "^2.2.0",
+    "typed.js": "^1.1.4",
+    "components-font-awesome":"^4.7.0"
+  }
+}
+

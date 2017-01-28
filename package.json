@@ -1,0 +1,22 @@
+{
+  "name": "web-resume-nodejs",
+  "version": "1.0.0",
+  "description": "Web resume using html, css, jquery and serve with nodejs and expressjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pitarn Harnpanichpun",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "less": "^2.7.2",
+    "morgan": "^1.7.0"
+  }
+}
