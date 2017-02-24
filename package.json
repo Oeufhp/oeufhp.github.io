@@ -1,6 +1,7 @@
 {
   "name": "web-resume-nodejs",
   "version": "1.0.0",
+  "repository": "https://github.com/oeufhp/web-resume-nodejs",
   "description": "Web resume using html, css, jquery and serve with nodejs and expressjs",
   "main": "app.js",
   "scripts": {
