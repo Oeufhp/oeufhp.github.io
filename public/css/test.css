@@ -81,7 +81,7 @@ div {
 #my-name-th {
   font-family: 'Kanit', sans-serif;
   text-align: center;
-  color: #FFC107;
+  color: #FFD600;
 }
 #my-name {
   font-size: 3em;
@@ -136,9 +136,9 @@ div {
   font-family: 'Oxygen', sans-serif;
   font-size: 17px;
   font-weight: 600;
-  border: 2px solid #FFC107;
+  border: 2px solid #FFD600;
   background-color: transparent;
-  color: #FFC107;
+  color: #FFD600;
   width: 180px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -159,9 +159,9 @@ div {
   }
 }
 .entersite-butt:hover {
-  background-color: #FFC107;
-  border-color: #FFC107;
-  color: #03A9F4;
+  background-color: #FFD600;
+  border-color: #FFD600;
+  color: #00BCD4;
   -webkit-transition-duration: 0.7s;
   /* Safari */
   /*transition-duration: 0.7s;*/
