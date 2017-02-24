@@ -12,9 +12,9 @@ app.use('/.well-known',express.static(ssl));
 app.get("/",function(req,res){
     res.sendFile(path+'/'+'index.html');
 });
-// app.get("/.well-known",function(){
+app.get("/.well-known",function(){
 
-// });
+});
 
 app.listen(port,function(){
   console.log("Your website is served at port "+ port);
