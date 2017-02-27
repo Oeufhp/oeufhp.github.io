@@ -9,13 +9,7 @@ var ssl=__dirname+'/.well-known';
 app.use(morgan('dev'));
 app.use("/", express.static(path));
 app.use('/.well-known',express.static(ssl));
-app.get("/",function(req,res){
-    res.sendFile(path+'/'+'index.html');
-});
-app.get("/.well-known",function(){
-
-});
-
+app.use("/resume",express.static(path+'/resume'));
 app.listen(port,function(){
   console.log("Your website is served at port "+ port);
 });
