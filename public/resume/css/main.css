@@ -497,6 +497,11 @@ ul.topnav li.icon {display: none;}
     padding-top: 1em;
     text-align: center;
 }
+@media screen and (max-device-width:435px){
+    .int-sub-header{
+        font-size: 16px;
+    }
+}
 /*----- Programming skills section -----*/
 .skills{
   background-color: #8D6E63;
@@ -609,6 +614,9 @@ ul.topnav li.icon {display: none;}
 .tools-caption{
     padding-top: 5px;
 }
+#react-icon{
+    width:60%;
+}
 
 #do-logo{
     width:68%;
@@ -626,8 +634,6 @@ ul.topnav li.icon {display: none;}
     width:27%;
 }
 
-
-
 @media (max-device-width: 435px){
     .tool-pic-test{
         width:65%;
@@ -637,6 +643,15 @@ ul.topnav li.icon {display: none;}
     }
     #wp-capt{
         padding-bottom:3px;
+    }
+    #react-icon{
+        width:65%;
+        margin-bottom:5px;
+    }
+}
+@media (min-device-width:436px) and (max-device-width:768px){
+    #react-icon{
+        width:50%;
     }
 }
 
@@ -686,14 +701,14 @@ ul.topnav li.icon {display: none;}
     font-family:Montserrat,sans-serif;
     font-size: 18px;
     color: #8D6E63;
-    margin-top: 2em;
+    margin-top: 1.5em;
     margin-bottom: -0.7em;
 }
 .act-list{
     font-family:Montserrat,sans-serif;
     font-size: 15px;
     color: #8D6E63;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 .act-li{
     list-style-type: disc;
