@@ -615,9 +615,8 @@ ul.topnav li.icon {display: none;}
     padding-top: 5px;
 }
 #react-icon{
-    width:60%;
+    width:55%;
 }
-
 #do-logo{
     width:68%;
 }
@@ -652,6 +651,9 @@ ul.topnav li.icon {display: none;}
 @media (min-device-width:436px) and (max-device-width:768px){
     #react-icon{
         width:50%;
+    }
+    #angular-icon{
+        width:40%;
     }
 }
 
