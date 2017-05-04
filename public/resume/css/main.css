@@ -669,7 +669,7 @@ ul.topnav li.icon {display: none;}
     background-color:#8D6E63;
     width:90%;
     border-radius: 10px;
-    padding-bottom: 3em;
+    padding-bottom: 2.5em;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 }
 .pro-con{ padding-top: 1em;}
@@ -679,8 +679,24 @@ ul.topnav li.icon {display: none;}
 #beleaf{
     width:50%;
 }
+#indiv-cc{
+    margin-top:40px;
+}
+@media screen and (max-device-width:769px){
+    #indiv-cc{
+        margin-top:32px;
+    }
+}
 #ws{
     width:47%;
+}
+#ws-cc{
+    margin-bottom:20px;
+}
+@media screen and (max-device-width:769px){
+    #ws-cc{
+        margin-bottom: 10px;
+    }
 }
 /*----- activity section -----*/
 .activity{
