@@ -1,0 +1,11 @@
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+  - node_modules/
+  - public/bower_components/
+
+install and start:
+  script:
+   - npm install
+   - npm start
