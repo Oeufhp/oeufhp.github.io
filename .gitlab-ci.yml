@@ -18,6 +18,7 @@ deploy-app:
     script:
         - npm start
     artifacts:
-        - public
+        paths:
+            - public
         
 
