@@ -5,7 +5,7 @@
   "description": "Web resume using html, css, jquery and serve with nodejs and expressjs",
   "main": "app.js",
   "scripts": {
-    "start": "bower install && node server.js"
+    "start": "bower install --allow-root && node server.js"
   },
   "author": "Pitarn Harnpanichpun",
   "license": "ISC",
