@@ -10,6 +10,6 @@ cache:
   - node_modules/
   - public/bower_components/
 
-job:
+pages:
   script:
    - npm start
